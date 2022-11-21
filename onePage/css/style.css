@@ -1,0 +1,422 @@
+html {
+    scroll-behavior: smooth;
+
+
+}
+
+body {
+    cursor: url('../pic/cursor.cur');
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellowgreen;
+
+
+}
+
+/*.mainIncude{*/
+/*display: flex;*/
+
+
+.main {
+    background-color: azure;
+    width: 200px;
+    height: 812px;
+    color: white;
+    position: fixed;
+}
+
+.mainleft {
+
+    width: 223px;
+    height: 812px;
+
+}
+
+.top {
+    height: 30px;
+}
+
+.picture {
+    background-color: darkblue;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    overflow: hidden;
+    box-shadow: 3px 3px 1px gray;
+    padding: 3px
+}
+
+.name {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+
+/* XIODA文字動畫 */
+.ml2 {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 15px;
+}
+
+/* XIODA文字動畫到這 */
+
+
+/* 打字機 */
+
+#typed{
+    font-weight: 900;
+    color: white;
+    margin-left: 240px;
+    
+}
+
+/* 打字機到這 */
+
+.picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    padding-top: 5px;
+    color: black;
+    height: 50px;
+    margin-top: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.view {
+    display: flex;
+}
+
+.content {
+    background-image: url("../pic/home.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 1468px;
+    height: 812px;
+}
+
+.content div {
+    color: azure;
+    font-size: 100px;
+    margin-top: 20px;
+    margin-left: 60px;
+    text-align: justify;
+    letter-spacing: 5px
+}
+
+.content .helfeedback {
+    margin-left: 600px;
+}
+
+.content .helfeedback img {
+    width: 150px;
+    height: 100%;
+    display: none;
+}
+
+.content input {
+    width: 250px;
+    margin-left: 57px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 0;
+
+}
+
+.content input:hover {
+    background-color: #0C6;
+    cursor: cell;
+    /* 更改滑鼠游標 */
+    transform: scale(1.05);
+}
+
+.content input:active {
+    /* :active是滑鼠點擊元素的狀態 */
+    transform: scale(1);
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 2, .2);
+}
+
+.content1 {
+
+    width: 1468px;
+    height: 812px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.amTitle {
+    text-align: start;
+    margin-left: 500px;
+    margin-top: 60px;
+    letter-spacing: 7px;
+
+}
+
+.amTitle3 {
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.amT3 img {
+    width: 50px;
+    height: 50px;
+    margin-top: 60px;
+
+}
+
+.amContect {
+    display: flex;
+}
+
+.amC1 {
+
+
+    margin-top: 80px;
+    margin-left: 200px;
+
+
+}
+
+.amC1 img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 12px gray;
+    padding: 3px
+}
+
+.amC2 {
+    margin-top: 80px;
+    width: 734px;
+
+}
+
+.amC2 i {
+    margin-right: 15px;
+}
+
+.amT {
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    text-align: start;
+}
+
+.amTc {
+    font-size: 15px;
+    margin-left: 260px;
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.content2 {
+
+    width: 1468px;
+    height: 812px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.content3 {
+
+    width: 1468px;
+    height: 500px;
+    text-align: center;
+}
+
+.content3 a {
+    margin-right: 40px;
+    letter-spacing: 100px;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: start;
+}
+
+.footer i {
+
+    margin-left: 527px;
+}
+
+#contact {}
+
+
+
+/* contanct */
+.conatiner {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.contact-form input.form-style {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+    text-transform: capitalize;
+    padding-bottom: 19px;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+.contact-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+}
+
+/* portfolio */
+.row {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.col-md-4 {
+    margin-left: 20px;
+}
+
+.card {
+    box-shadow: 3px 3px 4px gray;
+    padding: 1px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-text {
+    font-size: 15px;
+
+}
+
+
+/*contact*/
+
+.form-submit input {
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 12px;
+    padding: 15px 60px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+    cursor: pointer;
+    -webkit-transition: .4s linear;
+    -moz-transition: .4s linear;
+    -ms-transition: .4s linear;
+    -o-transition: .4s linear;
+    transition: .4s linear;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+user agent stylesheet input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: green;
+    color: red;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+user agent stylesheet input {
+    writing-mode: horizontal-tb !important;
+
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+
+    border-image: initial;
+}
+
+.form-submit {
+    text-align: left;
+    padding: 0 15px;
+}
+
+.contact-form {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
