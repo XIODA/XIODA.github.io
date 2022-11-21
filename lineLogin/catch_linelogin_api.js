@@ -1,7 +1,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
 // 先把API的URL存成一個變數
-var dataUrl = "https://xioda.github.io/?code=4r1iePpaEPziICzkriMR&state=login"
+var dataUrl = "https://xioda.github.io/lineLogin/?code=4r1iePpaEPziICzkriMR&state=login"
 $.ajax({
     url: 'https://api.line.me/oauth2/v2.1/token' , // 指定API 的 URL
     method: 'GET', // 指定請求方法
