@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>奧爾斯官方網站</title>
+    <link rel="stylesheet" type="text/css" href="ours.css" />
+    <script>
+        function msg() {
+            alert("查詢不到");
+        }
+
+        var box;
+        window.onload = function () {
+            box = document.getElementById("box");
+            //HTML Element 中的 scrollLeft 和 scrollTop 屬性
+            window.setInterval(scroll, 50);
+        };
+        function scroll() {
+            box.scrollTop++;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="headline">
+        <div class="product">
+            <div class="first-text">OURS HOME</div>
+            <div class="second-text">
+                <img class="animated-gif" src="ezgif.com-gif-maker.gif">
+            </div>
+        </div>
+        <div class="content2">
+            <div class="header1">
+                <div class="header7">
+                    CREATE YOUR <br /> FIRST WEBSITE
+                    <div class="creat01">創 造 最 好 的 網 頁</div>
+                    <div class="creat02">
+                        <div class="creat03">SIGN UP</div>
+                    </div>
+                    <div id="box" class="box">
+                        <div>線與線之間</div>
+                        <div><p>有著空間、交合、呼吸感的語彙存在其中</p></div>
+                        <div><p>有如被蜘蛛網所纏著的獵物</p></div>
+                        <div><p>越陷越深，直至被深深獵食，也渾然不知。</p></div>
+                        <br/>
+                        <div><p>「塩田千春：顫動的靈魂」是以柏林為據點</p></div>
+                        <div><br/></div>
+                        <div><p>現今活躍於世界舞台的藝術家塩田千春舉辦迄今規模最大的個展</p></div>
+                        <div><p>此次展出作品共計一百多件</p></div>
+                        <div><p>從90年代的早期創作直到近期</p></div>
+                        <div><p>除了大型裝置之外</p></div>
+                        <div><p>另外包括雕塑、行為藝術錄像、攝影、素描</p></div>
+                        <div><p>以及舞台設計相關圖稿</p></div>
+                        <div><p>全面性介紹她橫跨二十五年的藝術生涯</p></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="header2">
+                <div class="header3">
+                    <div class="header4"><a href="home.html">H O M E</a></div>
+                    <div class="header4">B L O G</div>
+                    <div class="header4">A B O U T U S</div>
+                    <div class="header4">D O W N L O A D</div>
+                    <div class="header4"><a href="login.html">L O G I N</a></div>
+                    <br />
+
+                </div>
+                <div class="header5"><input name="myfield" placeholder ="歡迎查詢哦"><input type="submit" value="搜尋"
+                        onclick="msg()"></div>
+                <div class="header6">
+                    <div class="slider_container">
+                        <div>
+                            <img src="AA01.jpg" alt="鹽田千春展" />
+                            <span class="info">散落一地的展品</span>
+                        </div>
+                        <div>
+                            <img src="AA02.jpg" alt="鹽田千春展" />
+                            <span class="info">逛展的人們</span>
+                        </div>
+                        <div>
+                            <img src="AA03.jpg" alt="鹽田千春展" />
+                            <span class="info">絲線包圍的紅景</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
